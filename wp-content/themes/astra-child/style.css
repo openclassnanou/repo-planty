@@ -1,0 +1,171 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 4.1.5.1687501694
+Updated: 2023-06-23 08:28:14
+
+*/  
+  
+.frm_combo_inputs_container, .frm_grid_container, .frm_form_fields .frm_section_heading, .frm_form_fields .frm_fields_container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: max-content;
+  grid-gap: 2% 9.5% ;
+
+}
+
+#info {
+  border-right: 1px solid #ffffff;
+  height: 430px;
+}
+
+
+.coteneurmain{ 
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.boutton1{
+  display: flex;
+  align-items: center; 
+  
+}
+
+.square {
+  width: 50px;
+  height: 56px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid grey; 
+  border-radius: 9px 0px 0px 9px; 
+  }
+
+.dropdown {
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  color: black;
+  border-radius: 1px;
+  padding: 5px;
+  
+  -webkit-appearance: none; /* Retirer la flèche pour les navigateurs WebKit */
+  -moz-appearance: none; /* Retirer la flèche pour les navigateurs Firefox */
+  appearance: none; /* Retirer la flèche pour les autres navigateurs */
+  }
+  
+  
+ .rectangle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+.rectangle {
+  position: relative;
+  width: 31px;
+  height: 56px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #DC9F96;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+
+.sign {
+  position: absolute;
+  width: 0px;
+  height: 1px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  }
+
+
+.sign-top {
+  top: 1px;
+  left: 11px;
+  }
+  
+
+
+.sign-bottom {
+  bottom: 1px;
+  right: 11px;
+  transform: rotate(180deg); 
+}
+
+
+.buttonok {
+  width: 100px;
+  height: 56px;
+  background-color: #E0B9B4;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.buttonok:hover {
+  background-color: #C02E44;
+  color: white;
+}
+
+.imagecontenair{
+  display: flex;
+  flex-direction: column;
+}
+
+.imagecontenair img {
+  width: 200px;
+  height:128.36px;
+ object-fit:cover;
+}
+
+/* styles CSS pour les écrans plus petits */
+@media screen and (max-width: 768px) {
+  .coteneurmain {
+    flex-direction: column;
+  }
+
+  
+}
+
+
+/* Hauteur du field formulaire */
+#field_9jv0r1 {
+  height: 342px;
+  resize: none;
+
+}
+
+
+
+@media screen and (max-width: 300px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+}
